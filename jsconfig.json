@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": [
+    "src/ai/dev.js", "src/ai/genkit.js", "src/app/cart/page.jsx", "src/app/checkout/page.jsx", "src/app/order-confirmation/[id]/page.jsx", "src/app/products/[id]/page.jsx", "src/app/products/page.jsx", "src/app/layout.jsx", "src/app/page.jsx", "src/components/icons/ChickenIcon.jsx", "src/components/icons/EggIcon.jsx", "src/components/layout/footer.jsx", "src/components/layout/header.jsx", "src/components/ui/accordion.jsx", "src/components/ui/alert-dialog.jsx", "src/components/ui/alert.jsx", "src/components/ui/avatar.jsx", "src/components/ui/badge.jsx", "src/components/ui/button.jsx", "src/components/ui/calendar.jsx", "src/components/ui/card.jsx", "src/components/ui/carousel.jsx", "src/components/ui/chart.jsx", "src/components/ui/checkbox.jsx", "src/components/ui/collapsible.jsx", "src/components/ui/dialog.jsx", "src/components/ui/dropdown-menu.jsx", "src/components/ui/form.jsx", "src/components/ui/input.jsx", "src/components/ui/label.jsx", "src/components/ui/menubar.jsx", "src/components/ui/popover.jsx", "src/components/ui/progress.jsx", "src/components/ui/radio-group.jsx", "src/components/ui/scroll-area.jsx", "src/components/ui/select.jsx", "src/components/ui/separator.jsx", "src/components/ui/sheet.jsx", "src/components/ui/sidebar.jsx", "src/components/ui/skeleton.jsx", "src/components/ui/slider.jsx", "src/components/ui/switch.jsx", "src/components/ui/table.jsx", "src/components/ui/tabs.jsx", "src/components/ui/textarea.jsx", "src/components/ui/toast.jsx", "src/components/ui/toaster.jsx", "src/components/ui/tooltip.jsx", "src/components/add-to-cart-button.jsx", "src/components/live-stats.jsx", "src/components/product-card.jsx", "src/hooks/use-cart.js", "src/hooks/use-mobile.jsx", "src/hooks/use-toast.js", "src/lib/products.js", "src/lib/types.js", "src/lib/utils.js"
+  ],
+  "exclude": ["node_modules"]
+}
